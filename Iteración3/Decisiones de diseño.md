@@ -45,7 +45,8 @@ Opción seleccionada: Patrón Strategy
 
 ## Contexto del problema
 
-¿Cuál es el principio general para asignar responsabilidades a los roles existentes, los recursos necesarios para cada emergencia y la asignación de llamadas tanto al sistema de emergencias como al centro de operaciones?
+¿Cuál es el principio general para asignar responsabilidades a los roles existentes, los recursos  
+necesarios para cada emergencia y la asignación de llamadas tanto al sistema de emergencias como al centro de operaciones?
 
 Solución:
 Asignar una responsabilidad al experto en información y la responsabilidad a un objeto que medie entre los elementos.
@@ -64,13 +65,16 @@ Opción seleccionada: GRASP
 
 ### Consecuencias positivas 
 
-* Se mantiene el encapsulamiento, los objetos utilizan su propia información para llevar a cabo sus tareas. 
+* Se mantiene el encapsulamiento, los objetos utilizan su propia información para llevar a cabo sus  
+tareas. 
 * Se distribuye el comportamiento entre las clases que contienen la información requerida. 
 * Son más fáciles de entender y mantener.
-* Si se asignan bien, el diseño puede soportar un bajo acoplamiento, mayor claridad, encapsulación y reutilización.
+* Si se asignan bien, el diseño puede soportar un bajo acoplamiento, mayor claridad, encapsulación  
+y reutilización.
 
 ### Consecuencias negativas 
 
-* Evitar/reducir el acoplamiento directo entre elementos y mejorar la reutilización suele contener bugs en el sistema.
+* Evitar/reducir el acoplamiento directo entre elementos y mejorar la reutilización suele contener  
+bugs en el sistema.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
